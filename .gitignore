@@ -1,0 +1,31 @@
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Compiled files
+*.o
+*.ko
+*.mod
+*.mod.c
+*.mod.o
+*.cmd
+
+# Kernel build artifacts
+Module.symvers
+modules.order
+
+# Qt generated files
+dashboard/.qmake.stash
+dashboard/Makefile
+dashboard/moc_*
+dashboard/ui_*
+dashboard/elpms_dashboard
+
+# Executables
+logger/patient_logger
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
